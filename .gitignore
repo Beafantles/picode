@@ -1,0 +1,15 @@
+# Python cache
+__pycache__
+
+# Visual Studio Code configuration
+.vscode
+
+# Examples' results
+examples/images
+
+# PyPi & PyPiTest configuration file
+.pypirc
+
+# PyPi related files
+dist
+picode.egg-info
