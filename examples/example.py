@@ -3,7 +3,6 @@ from os import listdir
 from os.path import isfile, join
 import os
 
-
 dir = os.path.dirname(__file__)
 codes_dir = os.path.join(dir, "codes")
 images_dir = os.path.join(dir, "images")
