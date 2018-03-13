@@ -23,7 +23,7 @@ with open(os.path.join(current_dir, "README.md"), "r", encoding="utf8") as file:
 
 setup(
     name="picode",
-    version="1.0.0",
+    version="1.1.1",
     description="A module for creating nice pictures of code",
     long_description=long_description,
     url="https://github.com/Beafantles/picode",
@@ -59,4 +59,7 @@ setup(
         "register": register,
         "upload": upload,
     },
-    include_package_data=True)
+    include_package_data=True,
+    entry_points={
+        'console_scripts': ['picode = picode:run_main'],
+    })
